@@ -1,0 +1,25 @@
+.header {
+    background-image: url('../images/header_img.JPG'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Set text color to contrast with the background */
+    text-align: center;
+    padding: 50px;
+    margin-top: 0; /* Remove default margin */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .header__content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  
+  .header__content {
+    max-width: 800px;
+    max-height: 100px;
+    margin: 0 auto;
+  }
