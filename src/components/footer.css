@@ -1,17 +1,18 @@
 .header {
     background-size: cover;
     background-position: center;
-    color: #fff; 
+    color: #fff; /* Set text color to contrast with the background */
     text-align: center;
     padding: 50px;
-    margin-top: 0; 
+    margin-top: 0; /* Remove default margin */
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 25vh;
-  } 
+    background-color: #696969;
+  }
   
-   .header__content {
+  .header__content {
     max-width: 800px;
     margin: 0 auto;
   }
@@ -22,8 +23,3 @@
     max-height: 100px;
     margin: 0 auto;
   }
-
-  /* .banner {
-    height: 25vh;
-    background-size: cover;
-  } */
